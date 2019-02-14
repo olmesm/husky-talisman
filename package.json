@@ -42,6 +42,7 @@
     "@pika/plugin-build-node": "^0.3.10",
     "@pika/plugin-simple-bin": "^0.3.10",
     "@pika/plugin-standard-pkg": "^0.3.10",
+    "@pika/types": "^0.3.8",
     "standard": "^12.0.1"
   },
   "@pika/pack": {
