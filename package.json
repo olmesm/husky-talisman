@@ -1,0 +1,65 @@
+{
+  "name": "husky-talisman",
+  "version": "1.1.0",
+  "description": "Allow running of the Thoughtworks Talisman tool via node",
+  "main": "index.js",
+  "scripts": {
+    "build": "pack build",
+    "publish": "pack publish",
+    "-test": "npm run build && pkg/dist-node/index.bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olmesm/husky-talisman.git"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "git",
+    "githooks",
+    "hook",
+    "hooks",
+    "pre-commit",
+    "precommit",
+    "pre-push",
+    "prepush",
+    "talisman",
+    "husky",
+    "lint",
+    "ssh keys",
+    "authorization tokens",
+    "private keys"
+  ],
+  "author": "Oliver Smit <https://github.com/olmesm>",
+  "bugs": {
+    "url": "https://github.com/olmesm/husky-talisman/issues"
+  },
+  "homepage": "https://github.com/olmesm/husky-talisman#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@pika/pack": "^0.3.1",
+    "@pika/plugin-build-node": "^0.3.10",
+    "@pika/plugin-simple-bin": "^0.3.10",
+    "@pika/plugin-standard-pkg": "^0.3.10",
+    "standard": "^12.0.1"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg",
+        {}
+      ],
+      [
+        "@pika/plugin-build-node",
+        {}
+      ],
+      [
+        "@pika/plugin-simple-bin",
+        {
+          "bin": "husky-talisman"
+        }
+      ]
+    ]
+  }
+}
