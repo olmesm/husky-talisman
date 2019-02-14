@@ -13,6 +13,7 @@ export const runner = argument => {
       '--githook',
       argument
     ],
-    logOutput: true
+    logOutput: true,
+    failOnError: true
   })
 }

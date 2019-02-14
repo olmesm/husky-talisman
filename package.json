@@ -5,15 +5,14 @@
   "main": "index.js",
   "scripts": {
     "build": "pack build",
-    "publish": "pack publish",
-    "-test": "npm run build && pkg/dist-node/index.bin.js"
+    "publish": "pack publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/olmesm/husky-talisman.git"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "keywords": [
     "git",

@@ -38,7 +38,9 @@ export const ACCEPTABLE_INPUT = {
 
 export const MESSAGES = {
   BAD_ARGUMENT: 'Sorry - I don\'t see or recognise a supplied argument:\n',
-  NULL_OR_UNDEFINED: 'appears to be null or undefined\n'
+  NULL_OR_UNDEFINED: 'appears to be null or undefined\n',
+  INSTALL_ERROR: 'there was an error installing this package\n',
+  FAILED: 'The requested operation failed\n'
 }
 
 export const VERSION_LOG = '.talisman_version'
