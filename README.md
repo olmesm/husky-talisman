@@ -6,19 +6,24 @@
 
 > NOTE: this package doesn't actually require [husky] to run, but plans full support.
 
-[npm] package to download and allow running of Thoughtworks [talisman] tool via node.
+This is an [npm] package that downloads and sets up Thoughtwork's [talisman] tool for use in your node project.
+
+## Requires
+
+- Node 8+
+- [curl] or [Invoke-webrequest]
 
 ## Features
 
 - [husky] supported
-- Linux, MacOS and Windows support
-- Zero package dependencies
+- Linux, MacOS and Windows (PowerShell) support
+- Zero npm package dependencies
 
 ## To Install
 
 The following is recommended to keep compatibility across various OS's.
 
-If you have a preferred method feel free to use it.
+> If you have a preferred method feel free to use it.
 
 1. Add package
 
@@ -69,6 +74,9 @@ If you have a preferred method feel free to use it.
 
 <!-- References -->
 
+[curl]: https://curl.haxx.se/
 [husky]: https://github.com/typicode/husky
+[invoke-webrequest]: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-6
 [npm]: https://www.npmjs.com/
 [talisman]: https://github.com/thoughtworks/talisman
+[wget]: https://www.gnu.org/software/wget/
