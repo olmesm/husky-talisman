@@ -50,8 +50,8 @@ export async function run (args) {
 
         break
 
-      case ACCEPTABLE_INPUT.POST_COMMIT:
-        console.log('husky-talisman >', ACCEPTABLE_INPUT.POST_COMMIT)
+      case ACCEPTABLE_INPUT.PRE_PUSH:
+        console.log('husky-talisman >', ACCEPTABLE_INPUT.PRE_PUSH)
         await runner(argument)
 
         break

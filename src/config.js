@@ -32,7 +32,7 @@ export const { arch, platform } = process
 
 export const ACCEPTABLE_INPUT = {
   PRE_COMMIT: 'pre-commit',
-  POST_COMMIT: 'post-commit',
+  PRE_PUSH: 'pre-push',
   INSTALL: 'install'
 }
 
@@ -44,7 +44,7 @@ export const MESSAGES = {
 }
 
 export const VERSION_LOG = '.talisman_version'
-export const TALISMAN_VERSION = 'v0.4.3'
+export const TALISMAN_VERSION = 'v1.11.0'
 export const PACKAGE_NAME = 'husky-talisman'
 
 const BINARY_NAME = `talisman${isWindows ? '.exe' : ''}`
