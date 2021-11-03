@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "pika build",
-    "publish": "pika publish"
+    "publish": "pika publish",
+    "version": "npm run build"
   },
   "repository": {
     "type": "git",
