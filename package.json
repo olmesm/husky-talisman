@@ -1,6 +1,6 @@
 {
   "name": "husky-talisman",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Allow running of the ThoughtWorks Talisman tool via node",
   "main": "index.js",
   "scripts": {
