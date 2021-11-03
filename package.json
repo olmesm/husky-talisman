@@ -6,6 +6,7 @@
   "scripts": {
     "build": "pika build",
     "publish": "pika publish",
+    "test": "exit 0",
     "version": "npm run build"
   },
   "repository": {
