@@ -4,8 +4,8 @@
   "description": "Allow running of the ThoughtWorks Talisman tool via node",
   "main": "index.js",
   "scripts": {
-    "build": "pack build",
-    "publish": "pack publish"
+    "build": "pika-pack build",
+    "publish": "pika-pack publish"
   },
   "repository": {
     "type": "git",
